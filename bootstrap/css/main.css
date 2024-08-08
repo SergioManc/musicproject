@@ -1,0 +1,76 @@
+body {
+    color: rgb(95, 53, 5);
+    background-color: rgb(206, 154, 95);
+}
+header {
+    background-color: rgb(73, 43, 9);
+}
+#encabezado {
+    color: rgb(95, 53, 5);
+    background-color: rgb(255, 203, 144);
+}
+nav {
+    color: rgb(95, 53, 5);
+    background-color: rgb(185, 117, 53);
+    border: 10px solid rgb(73, 43, 9);
+}
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+}
+#separador {
+    width: 100;
+    height: 80px;
+    opacity: 0.8;
+    background: repeating-linear-gradient(-45deg,rgb(95, 53, 5), rgb(95, 53, 5) 5px, rgb(95, 53, 5) 5px, rgb(161, 112, 57) 25px);
+}
+div h3, header h1{
+    letter-spacing: 2px;
+}
+
+.main_desc {
+    line-height: 30px;
+}
+
+.card {
+    color: rgb(95, 53, 5);
+    background-color: rgb(185, 117, 53);  
+}
+
+.card-border{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+table {
+    border: 4px solid rgb(93, 41, 22);
+    border-collapse:collapse;
+}
+th, td {
+    border: 3px solid rgb(93, 41, 22);
+    background-color: rgb(231, 175, 111);
+}
+#complemento {
+    height: auto;
+    border: 4px double rgb(93, 41, 22);
+    margin-left: 50px;
+}
+#complemento a:visited {
+    color: rgb(126, 46, 8)
+}
+#complemento a:hover, #complemento a:focus {
+    font-weight: bold;
+    background-color: rgb(190, 142, 86);    
+}
+#footer {
+    color:rgb(212, 166, 113);
+    background-color: rgb(73, 43, 9);
+}
+#footer h3 {
+    color: rgb(136, 95, 47);
+}

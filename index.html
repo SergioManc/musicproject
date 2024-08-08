@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music RN - Tienda de música</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/main.css">
+  </head>
+  <body>
+
+    <!--HEADER-->
+    <header class="navbar navbar-expand-sm px-3 py-4">
+        <div id="encabezado" class="container-fluid px-5 py-3">
+            <div class="col-9 text-decoration-underline">
+                <h1>MusicRN</h1>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo de MusicRN" width="100">
+            </a>
+                    
+            </div>
+        </div>
+    </header>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand px-3" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav h5">
+              <li class="nav-item me-5">
+                <a class="nav-link active" aria-current="page" href="#">Tienda</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Buscar Productos</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Redes Sociales</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--CAROUSEL-->
+    <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/instrumento1.jpg" alt="Primera imagen" class="d-block w-100" data-bs-interval="2000">
+        </div>
+        <div class="carousel-item">
+          <img src="img/instrumento2.jpg" alt="Segunda imagen" class="d-block w-100" data-bs-interval="2000">
+        </div>
+        <div class="carousel-item">
+          <img src="img/instrumento3.jpg" alt="Tercera imagen" class="d-block w-100" data-bs-interval="2000">
+        </div>
+      </div>
+    </div>
+
+    <!--SEPARADOR-->
+    <div id="separador">
+      <div class="content"></div>
+    </div>
+
+    <!--SOBRE NOSOTROS-->
+    <div class="pt-5 pb-3">
+      <h3 class="text-center pb-5 pt-2 h1 text-decoration-underline">Sobre nosotros</h3>
+      <div>
+        <p class="main_desc px-3 pb-5"><strong>MusicRN</strong> será un sitio web dedicado a la venta de productos musicales, 
+          así como a la divulgación de diferentes datos acerca de la industria 
+          músical y la ejecución de instrumentos. Dentro de nuestra <em>musicalmente maravillosa</em> página podrás encontrar
+          un enorme catalogo de marcas y accesorios para tus instrumentos musicales
+          a un precio accesible y justo, así como consejos generales que no están de más mencionar
+          sobre el aprendizaje, lo que facilitará el proceso para cualquier persona que iniciara
+          recientemente en el mundo de la <strong>música</strong>.</p>
+      </div>
+    </div>
+
+    <!--SEPARADOR SOBRE NOSOTROS-->
+    <div id="separador">
+      <div class="content"></div>
+    </div>
+
+    <!--SECCION DE INSTRUMENTOS-->
+    <div class="container-fluid">
+      <div class="row pt-5">
+        <h3 class="text-center pb-5 h1">¿Qué manejamos?</h3>
+        <p class="px-3 pb-5 h4">En este momento manejamos tres tipos de instrumentos que puedes encontrar
+          dentro de nuestro catalogo, que son los siguientes:</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md">
+            <div class="card w-100 card-border mb-5">
+              <div class="card-body">
+                <p class="card-text text-center h5">Guitarra Acústica</p>
+              </div>
+              <img src="img/card1.jpg" class="card-img-top" alt="Hombre tocando una guitarra acústica">
+            </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card w-100 card-border mb-5">
+            <div class="card-body">
+              <p class="card-text text-center h5">Clarinete</p>
+            </div>
+            <img src="img/card2.jpg" class="card-img-top" alt="Clarinete tomado desde un primer plano con un fondo borroso">
+          </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card w-100 card-border mb-5">
+          <div class="card-body">
+            <p class="card-text text-center h5">Teclado/Sintetizador</p>
+          </div>
+          <img src="img/card3.jpg" class="card-img-top" alt="Teclado elevado frente a un espejo y ventana">
+        </div>
+      </div>
+
+    <!--SEPARADOR INSTRUMENTOS-->
+    <div id="separador">
+      <div class="content"></div>
+    </div>
+
+    <!--INFORMACION DE INSTRUMENTOS-->
+    <div class="container-fluid">
+      <div class="row pt-5">
+        <h3 class="text-center pb-5 h2">Acerca de los instrumentos</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <table class="mb-5 ms-3">
+            <thead>
+                <tr>
+                    <td><strong>Instrumento</strong></td>
+                    <td><strong>Tipo</strong></td>
+                    <td><strong>Técnica de Interpretación</strong></td>
+                    <td><strong>Material</strong></td>
+                    <td><strong>¿Cómo se produce el sonido?</strong></td>
+                    <td><strong>Usos Comunes</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://static.vecteezy.com/system/resources/previews/001/207/326/original/acoustic-guitar-png.png" width="100" alt="Guitarra simple"></td>
+                    <td>Cuerda</td>
+                    <td>Pulsación de trastes (Mano izquierda) y rasgueo de cuerdas (Mano derecha)</td>
+                    <td>Madera y metal (cuerdas)</td>
+                    <td>Por la vibración de las cuerdas pulsadas o rasgueadas con la mano derecha</td>
+                    <td>
+                        <ul class="text-decoration-underline">
+                            <li>Rock</li>
+                            <li>Pop</li>
+                            <li>Blues</li>
+                            <li>Flamenco</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://images.vexels.com/media/users/3/181739/isolated/preview/18dc943c20e55ed415d6fa3574dc66c4-teclado-electronico-profesional-negro.png" width="100" alt="Teclado musical simple"></td>
+                    <td>Electrónico</td>
+                    <td>Pulsación de teclas con ambas manos</td>
+                    <td>Plástico y metal</td>
+                    <td>La pulsación de las teclas activan circuitos eléctricos que producen después el sonido</td>
+                    <td>
+                        <ul class="text-decoration-underline">
+                            <li>Pop</li>
+                            <li>Electro</li>
+                            <li>Música Clásica</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://images.vexels.com/content/149528/preview/clarinet-musical-instrument-icon-7def0b.png" width="100" alt="Clarinete simple"></td>
+                    <td>Viento Madera</td>
+                    <td>Control de la embocadura y digitación</td>
+                    <td>Madera (generalmente ébano)</td>
+                    <td>Vibración de una lengüeta al insuflar aire</td>
+                    <td>
+                        <ul class="text-decoration-underline">
+                            <li>Jazz</li>
+                            <li>Clásica</li>
+                            <li>Bandas sonoras</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="col-sm">
+          <div id="complemento" class="me-5 p-3 d-md-block">
+            <h3>¿Quieres aprender a tocar la guitarra?</h3>
+            <p>Cualquiera lo puede hacer desde su hogar, ¡Prueba visitando los siguientes canales!</p>
+            <ol>
+                <li><a class="link-dark" href="https://www.youtube.com/@Tusclasesdeguitarra" target="_blank">Tus Clases de Guitarra</a></li>
+                <li><a class="link-dark" href="https://www.youtube.com/@guitarraviva" target="_blank">Guitarraviva</a></li>
+                <li><a class="link-dark" href="https://www.youtube.com/@christianvib" target="_blank">Christianvib</a></li>
+            </ol><br>
+            <p>Si ellos me ayudaron a mí, tambien te ayudarán a ti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SEPARADOR FINAL-->
+    <div id="separador" class="mt-3">
+      <div class="content"></div>
+    </div>
+
+    <!--FOOTER-->
+    <div id="footer" class="container-fluid">
+      <div class="container w-50 pt-5">
+        <div class="row pt-5">
+          <h3 class="text-center">Sobre el autor</h3>
+        </div>
+        <div class="row justify-content-sm-center py-5">
+          <div class="col text-center font-weight-light">
+            <p>Nombre: Sergio Andrés G. Manchego</p>
+            <p>Correo: andresdur1224@hotmail.com</p>
+            <p>Institución: Skolmi</p>
+            <p>2024®</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
